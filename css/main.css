@@ -79,7 +79,9 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     50%{background-position:100% 50%}
     100%{background-position:0% 50%}
 }
-
+.row{
+  text-align: left;
+}
 .navbar{
   font-family: 'Open Sans', Arial, Helvetica Neue, sans-serif;
   width: 100%;
@@ -133,9 +135,17 @@ hr {
   overflow: visible;
 }
 
+.text{margin-top: 0.5rem;
+margin-bottom: 0.5rem;
+margin-left: 15px;
+color: rgb(0,0,0);}
+
 h1, h2, h3, h4, h5, h6 {
-  margin-top: 0;
+  margin-top: 0.5rem;
   margin-bottom: 0.5rem;
+  margin-left: 15px;
+  color: rgb(0,0,0);
+
 }
 
 p {
